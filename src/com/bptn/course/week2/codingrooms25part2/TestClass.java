@@ -1,4 +1,4 @@
-package com.bptn.course.week2.codingrooms26;
+package com.bptn.course.week2.codingrooms25part2;
 
 public class TestClass {
 
