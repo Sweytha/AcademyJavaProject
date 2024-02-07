@@ -70,6 +70,7 @@ public class LinkedListExample {
 			System.out.println(iterator.next());
 		}
 		
+		
 		//remove an element using an iterator
 		System.out.println("Removing an element using an iterator");
 		Iterator<String> it= colors.iterator();
