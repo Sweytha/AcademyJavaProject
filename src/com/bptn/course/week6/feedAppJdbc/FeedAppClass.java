@@ -19,7 +19,7 @@ public class FeedAppClass {
 		Connection conn = null;
 
 		try {
-			// Class.forName("org.postgresql.Driver");
+			Class.forName("org.postgresql.Driver");
 			conn = DriverManager.getConnection("jdbc:postgresql://" + dbUrl + ":" + port + "/" + dbName, userName,
 					password);
 
